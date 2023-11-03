@@ -1,0 +1,21 @@
+.DS_Store
+.env.*local
+.dev.vars
+
+node_modules/
+
+# NPM
+package-lock.json
+
+# Yarn
+yarn.lock
+.yarn/
+.pnp.*
+
+# PNPM
+pnpm-lock.yaml
+
+# Bun
+bun.lockb
+
+.wrangler/
