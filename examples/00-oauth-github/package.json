@@ -5,10 +5,15 @@
     "dev": "wrangler pages dev public"
   },
   "dependencies": {
+    "@octokit/core": "^5.0.1",
+    "common-tags": "^1.8.2",
+    "cookie": "^0.5.0",
     "utils": "workspace:*"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20231025.0",
+    "@types/common-tags": "^1.8.4",
+    "@types/cookie": "^0.5.3",
     "typescript": "^5.2.2",
     "wrangler": "^3.15.0"
   }
