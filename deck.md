@@ -156,8 +156,8 @@ OAuth 2는 "사용자 동의"에 따라 <br> "서드파티 서비스"에 리소�
 - Authorization Server (AS)
 - Resource Server (RS)
 - Resource Owner (RO)
-- Client
-  - Credential Client
+- Client Types
+  - Confidential Client
   - Public Client
 
 ---
@@ -247,7 +247,7 @@ OAuth 2 기반으로 만든 **사용자 인증** 프레임워크
 <div class="text-center">
 
 예시: GitHub App을 만들고 싶은데,<br>
-문서보니까 Credential Client 가이드 밖에 없고 PKCE 지원도 안함.
+문서보니까 Confidential Client 가이드 밖에 없고 PKCE 지원도 안함.
 
 </div>
 
